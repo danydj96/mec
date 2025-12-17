@@ -14,7 +14,7 @@ function setupFirSelector() {
   if (!sel) return;
   currentFir = sel.value || "LECB";
 
-  sel.addEventListener("change", function () {
+  sel.addEventListener("change", fuion () {
     currentFir = sel.value || "LECB";
     reloadForCurrentFir();
   });
@@ -668,3 +668,4 @@ function savePositionRow(data, isNew, rowRef) {
       alert("Error guardando posición.");
     });
 }
+
